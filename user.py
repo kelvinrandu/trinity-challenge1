@@ -1,3 +1,4 @@
+
 import datetime
 comment = []
 users = {}
@@ -22,3 +23,4 @@ class User:
 
 james = User("james", "james@example.com", "its-secret", "normal")
 james.create_user()
+
