@@ -36,8 +36,20 @@ class User:
         comment_data.append(my_comment)
         print(comment_data)
 
+    def edit_comment(self, commid, comment_update):
+        self.commentid = commid
+        self.comment_update = comment_update
+
+        edit_this = [comm for comm in comment_data if comm['ID'] == commid]
+        if len(edit_this) == 0:
+            return {'message': 'No comment  found'}
+        else:
+            comment_data[0]["Comment"] = comment_update
+        print(comment_data)
+
 
 james = User("james", "james@example.com", "its-secret", "normal")
 james.create_user()
 james.login()
 james.comment("THis is my comment")
+james.edit_comment(0, "Edit me")
