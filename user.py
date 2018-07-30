@@ -28,7 +28,7 @@ class User:
         my_comment = {
             "ID": User.commentid,
             "Comment": self.comment,
-            "Created by": self.name,
+            "Author": self.name,
             "Created at":
             '{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now())
         }
