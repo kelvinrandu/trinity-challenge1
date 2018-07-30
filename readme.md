@@ -1,7 +1,7 @@
 ## AGILE PROJECT 
 
 ## PROJECT NAME: TRINITY-CHALLANGE-ONE 
-    ##installation
+## installation
       - git clone https://github.com/kelvinrandu/trinity-challenge1.git
 
 ## WHAT PROJECT DOES:
@@ -14,7 +14,8 @@
 - Admins on ther other hand can edit and delete any comment.
 - User last log in is saved as a time stamp.
 
-##USER ROLES:
+
+## USER ROLES:
 - Normal user: Normal users can only CREATE new comments, and EDIT their own comments
 - Modarators: users at this category can CREATE new comments, EDIT their own comments and
   DELETE any comment.
