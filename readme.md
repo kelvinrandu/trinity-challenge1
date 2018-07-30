@@ -3,6 +3,8 @@ AGILE PROJECT
 PROJECT NAME: TRINITY-CHALLANGE-ONE 
 
 WHAT PROJECT DOES:
+
+
     This is a commandline tool that can create users at diferent categories namely Normal users, Modarators users and Admin users.
 
     Users already in our database can login using email and password.
@@ -13,6 +15,8 @@ WHAT PROJECT DOES:
     User last log in is saved as a time stamp.
 
 USER ROLES:
+
+
     Normal user: Normal users can only CREATE new comments, and EDIT their own comments
 
     Modarators: users at this category can CREATE new comments, EDIT their own comments and
