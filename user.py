@@ -1,4 +1,3 @@
-
 import datetime
 comment = []
 users = {}
@@ -20,7 +19,11 @@ class User:
         users.update(user)
         print(users)
 
+    def login(self):
+        today = datetime.date.today()
+        print("lastLoggedInAt ", today)
+
 
 james = User("james", "james@example.com", "its-secret", "normal")
 james.create_user()
-
+james.login()
