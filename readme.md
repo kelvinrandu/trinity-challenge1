@@ -1,6 +1,8 @@
 ## AGILE PROJECT 
 
 ## PROJECT NAME: TRINITY-CHALLANGE-ONE 
+    ##installation
+      - git clone https://github.com/kelvinrandu/trinity-challenge1.git
 
 ## WHAT PROJECT DOES:
 
@@ -17,4 +19,11 @@
 - Modarators: users at this category can CREATE new comments, EDIT their own comments and
   DELETE any comment.
 - admins: users at this category can CREATE new comments, EDIT any comment and DELETE any comment.
+
+## REQUIREMENTS
+     
+- Python3
+
+## RUNNING APP
+- On the command line type python user.py
 
